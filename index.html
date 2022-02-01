@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>LeLil - Verification Informations</title>
+  <link rel="stylesheet" href="index.css">
+  <script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+	<div class="center m-t-20">
+		<div class="flex-box-vertical">
+			<div class="box flex-box-vertical">
+				<div>
+					<h2>Vérifications d'informations diverses</h2>
+				</div>
+				<div class="flex-box-horizontal justify-content-space-between flex-align-items-bottom">
+					<div>
+						<div>
+							<label class="search-label">Nom :</label>
+						</div>
+						<div>
+							<input type="text" id="input_name"/>
+						</div>			
+					</div>
+					<div>
+						<button onclick="showResult()" id="input_search">Rechercher</button>
+					</div>
+				</div>
+			</div>
+			<div class="box m-t-10 width-same-as-container">
+				<div class="m-b-10">
+					Affichage des résultats :
+				</div>
+				<div class="flex-box-horizontal flex-justify-content-space-around" id="result_list">
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
