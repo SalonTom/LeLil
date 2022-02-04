@@ -27,7 +27,7 @@ function showResult() {
 				resultList.innerHTML += "<div><input type=\"checkbox\" name=\"sanitary\" value=\"sanitary\" checked disabled/><label for=\"sanitary\">Pass vaccinal</label></div>"
 			}
 			else {
-				resultList.innerHTML += "<div><input type=\"checkbox\" name=\"student\" value=\"student\" disabled/><label for=\"student\">Carte étudiante</label></div>"
+				resultList.innerHTML += "<div><input type=\"checkbox\" name=\"student\" value=\"student\" disabled/><label for=\"student\">Pass vaccinal</label></div>"
 			}
 		}
 	}

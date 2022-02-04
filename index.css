@@ -1,10 +1,10 @@
 .box {
-	border : solid 2px grey;
+	border : solid 2px white;
 	border-radius: 5px;
 	display: inline-block;
 	width: fit-content;
-    height: fit-content;
-    padding: 10px;
+	height: fit-content;
+	padding: 10px;
 }
 
 .center {
@@ -62,7 +62,44 @@
 .m-b-10 {
 	margin-bottom: 10px;
 }
+.m {
+	margin: 10px;
+}
 
+.p {
+	padding: 10px;
+}
+
+.border-radius {
+	border-radius: 5px;
+}
+
+.round {
+	border-radius: 50%
+}
+
+.border-solid {
+	border: solid;
+}
+
+#img-logo-Lelil {
+	padding-left:10px;
+	padding-top:10px;
+	border-color:white;
+	width:100px;
+	height: 90px;
+	background-color: black;
+	position: absolute;
+	top: 0px;
+	left: 0px
+}
+
+#container {
+	padding-top: 40px;
+	padding-left: 50px;
+	border-color: transparent;
+	position: relative;
+}
 .width-same-as-container {
 	width:inherit;
 }
