@@ -7,38 +7,45 @@
   <script type="text/javascript" src="index.js"></script>
 </head>
 <body>
-	<div class="center m-t-20" style="background-color:blue;">
-		<div class="box" id="container">
-			<div class="flex-box-vertical p m border-radius" style="background-color: #C1D344;">
-				<div class="round border-solid" id="img-logo-Lelil">
-					<img src="ressources/logo2.svg" alt="logo-LeLil">
-				</div>
-					<div class="box flex-box-vertical">
-						<div>
-							<h2>Vérifications d'informations diverses</h2>
+	<div class="flex-box-vertical" style="height: inherit;">
+		<div id="top-half">
+			<div class="background-image"></div>
+			<div id="form-place" class="center m-t-20 content">
+				<div class="box" id="container">
+					<div class="flex-box-vertical p m border-radius" style="background-color: #C1D344; width: 500px;">
+						<div class="round border-solid" id="img-logo-Lelil">
+							<img src="ressources/logo2.svg" alt="logo-LeLil">
 						</div>
-						<div class="flex-box-horizontal justify-content-space-between flex-align-items-bottom">
+						<div class="box flex-box-vertical">
 							<div>
+								<h2 style="text-align: center;">Vérification d'informations diverses</h2>
+							</div>
+							<div class="flex-box-horizontal justify-content-space-between flex-align-items-bottom">
 								<div>
-									<label class="search-label">Nom :</label>
+									<div>
+										<label class="search-label">Nom :</label>
+									</div>
+									<div>
+										<input type="text" id="input_name"/>
+									</div>			
 								</div>
 								<div>
-									<input type="text" id="input_name"/>
-								</div>			
-							</div>
-							<div>
-								<button onclick="showResult()" id="input_search">Rechercher</button>
+									<button onclick="showResult()" id="input_search">Rechercher</button>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="box m-t-10 width-same-as-container">
-						<div class="m-b-10">
-							Affichage des résultats :
-						</div>
-						<div class="flex-box-horizontal flex-justify-content-space-around" id="result_list">
+						<div class="box m-t-10" style="width: auto;">
+							<div class="m-b-5">
+								Affichage des résultats :
+							</div>
+							<div class="flex-box-vertical" id="result_list">
+							</div>
 						</div>
 					</div>
 				</div>
+			</div>
+			<div id="bottom-half">
+				
 			</div>
 		</div>
 	</div>
