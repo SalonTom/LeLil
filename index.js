@@ -27,7 +27,7 @@ function showResult() {
 
 	if(nameSearched.value) {
 		for (var i = 0; i < idArray.length; i++) {
-			if (idArray[i].name.includes(nameSearched.value)) {
+			if (idArray[i].name.startsWith(nameSearched.value)) {
 				resultList.innerHTML += "<div id=\"result_spot" + i + "\" class=\"flex-box-horizontal flex-justify-content-start\" style=\"height:15px;margin:5px\">";
 				
 				var resultSpot = document.getElementById('result_spot'+ i);
